@@ -1,0 +1,29 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.videos {
+    margin-top: 140px;
+}
+
+.text{
+    margin-top: 300px;
+}
+.footer {
+    margin-top: 30px;
+}
+
+.buy {
+    background: url(../img/back.png);
+    filter: brightness(70%);  
+}
